@@ -26,6 +26,12 @@ yarn-error.log*
 .env*.local
 .env
 
+# Google Cloud credentials
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
 # vercel
 .vercel
 
@@ -45,3 +51,6 @@ next-env.d.ts
 
 # YoYo AI version control directory
 .yoyo/
+
+# Uploaded files (PDF documents)
+public/uploads/
